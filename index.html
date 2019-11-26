@@ -4,14 +4,24 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <h1>Jesse Barr</h1>
 <table class="nav">
 	<tr>
-		<thead>home</thead>
-		<thead><a href="photos.html">photography</a></thead>
-		<thead><a href="art.html">mixed media</a></thead>
-		<thead><a href="about.html">about</a></thead>
+		<th>home</th>
+		<th><a class="otherPage" href="photos.html">photography</a></th>
+		<th><a class="otherPage" href="art.html">mixed media</a></th>
+		<th><a class="otherPage" href="about.html">about</a></th>
 	</tr>
 </table>
+
+<ul class="slideshow">
+	<li class="hidden shown"><img class="slideshowImg" src="art/birchAll.jpg" alt="Birch Trees, acrylic on canvas"></li>
+	<li class="hidden"><img class="slideshowImg" src="photos/polebarn.jpg" alt="Pole Barn, photography"></li>
+	<li class="hidden"><img class="slideshowImg" src="art/barbedWire.jpg" alt="Barbed Wire, acrylic on canvas"></li>
+	<li class="hidden"><img class="slideshowImg" src="photos/walnut.jpg" alt="Black Walnut, photography"></li>
+</ul>
+
+<script src="slideshow.js"></script>
 </body>
 </html>
